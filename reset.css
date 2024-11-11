@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    display: block
+}
+ul, ol{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+button, input, select, option, textarea{
+    border: 0;
+    background-color: rgba(0,0,0,0);
+    font-family: inherit;
+}
+.blind{
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+}
