@@ -281,7 +281,8 @@
     }
     .s4 .seoulstory{
         width: 50%;
-        height: 530px;
+        max-width: 2500px;
+        height: 570px;
         padding: 50px 0;
     }
     .s4 .seoulstory .wrap{
@@ -322,6 +323,7 @@
     }
     .s4 .seoulstory .notice .swiper-slide .post{
         width: 66%;
+        height: 260px;
         margin: 0 auto;
         padding-top: 50px;
     }
@@ -333,13 +335,25 @@
         color: #fff;
         font-size: 24px;
     }
+    .s4 .seoulstory .festival .swiper-slide .post{
+        width: 66%;
+        height: 260px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .s4 .seoulstory .festival .swiper-slide .post .txt{
+        color: #fff;
+        font-size: 24px;
+        margin-top: 70px;
+    }
     .s4 .seoulstory .btnGo{
         font-size: 16px;
     }
     .s4 .news{
         width: 50%;
+        max-width: 2500px;
         padding: 50px 0;
-        height: 530px;
+        height: 570px;
         margin-top: 50px;
     }
     .s4 .news .wrap{
@@ -379,6 +393,7 @@
     }
     .s4 .news .btnGo{
         font-size: 16px;
+        margin-top: 45px;
     }
     .s5{
         padding: 50px 0;
