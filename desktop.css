@@ -124,13 +124,16 @@
         overflow: hidden;
         position: absolute;
         top: 100%;
-        left: 0;
+        left: -6px;
         display: block;
         background-color: #0c5a9f;
         opacity: 0;
         z-index: 999;
         margin-top: unset;
-        width: 150px;
+        width: 160px;
+    }
+    header nav .navi .menu>li:nth-child(3) .sub{
+        left: 6px;
     }
     header nav .navi .sub>li{
         border: unset;
@@ -555,7 +558,7 @@
     }
     .ft_menu .link li{
         margin-bottom: unset;
-        font-size: 20px;
+        font-size: 18px;
         height: unset;
         padding: 20px 0;
     }
@@ -572,7 +575,7 @@
     .ft_menu .site .site1 button{
         border: unset;
         padding: 20px 0;
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: unset;
         width: unset;
         /* position: relative; */
@@ -581,7 +584,7 @@
         display: none;
         background-color: #fff;
         position: absolute;
-        width: 170px;
+        width: 160px;
         height: 300px;
         top: -470%;
         left: 0;
@@ -607,7 +610,7 @@
     .ft_menu .site .site2{
         border: unset;
         padding: 20px 0;
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: unset;
         width: unset;
     }
@@ -617,7 +620,7 @@
     .ft_menu .site .site3 button{
         border: unset;
         padding: 20px 0;
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: unset;
         width: unset;
     }
@@ -625,7 +628,7 @@
         display: none;
         background-color: #fff;
         position: absolute;
-        width: 170px;
+        width: 160px;
         height: 300px;
         top: -470%;
         left: 0;
@@ -652,7 +655,7 @@
     .ft_menu .site .site4{
         border: unset;
         padding: 20px 0;
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: unset;
         width: unset;
     }

@@ -401,6 +401,7 @@ header nav .navi .sub>li{
 .s4 .seoulstory{
     padding: 30px 12px;
     background-color: #001c5b;
+    height: 491px;
 }
 .s4 .seoulstory h1{
     font-size: 24px;
@@ -503,6 +504,7 @@ header nav .navi .sub>li{
 .s4 .seoulstory .festival .swiper-slide .post .txt{
     color: #fff;
     font-size: 20px;
+    margin-top: 50px;
 }
 .s4 .seoulstory .festival .swiper-slide .post .txt .date{
     color: #fff;
@@ -825,7 +827,7 @@ header nav .navi .sub>li{
     width: 80%;
     height: 80%;
     position: absolute;
-    padding: 10px 20px;
+    padding: 10px 0px;
     top: 10%;
     left: 10%;
     overflow: scroll;
@@ -846,7 +848,7 @@ header nav .navi .sub>li{
 .ft_menu .site .site1_list li{
     font-size: 16px;
     list-style: disc;
-    padding: 30px 0;
+    padding: 30px 20px;
 }
 .ft_menu .site .site1_list li::after{
     content: '';
