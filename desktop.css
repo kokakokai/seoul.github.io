@@ -106,7 +106,7 @@
     }
     header nav .navi .menu>li{
         position: relative;
-        font-size: 24px;
+        font-size: 20px;
         height: unset;
         background-color: unset;
         border-top: unset;
@@ -124,21 +124,21 @@
         overflow: hidden;
         position: absolute;
         top: 100%;
-        left: -6px;
+        left: -7px;
         display: block;
         background-color: #0c5a9f;
         opacity: 0;
         z-index: 999;
         margin-top: unset;
-        width: 160px;
+        width: 150px;
     }
-    header nav .navi .menu>li:nth-child(3) .sub{
-        left: 6px;
+    header nav .navi .menu li:nth-child(3) .sub{
+        left: 0px;
     }
     header nav .navi .sub>li{
         border: unset;
         display: block;
-        font-size: 20px;
+        font-size: 18px;
         padding: unset;
         background-color: unset;
         border-top: unset;
@@ -584,7 +584,7 @@
         display: none;
         background-color: #fff;
         position: absolute;
-        width: 160px;
+        width: 170px;
         height: 300px;
         top: -470%;
         left: 0;
@@ -599,7 +599,7 @@
         padding: 10px 10px;
     }
     .ft_menu .site .site1_list ul li{
-        font-size: 18px;
+        font-size: 16px;
         text-wrap: nowrap;
         padding: 10px 0;
         list-style: none;
@@ -628,7 +628,7 @@
         display: none;
         background-color: #fff;
         position: absolute;
-        width: 160px;
+        width: 170px;
         height: 300px;
         top: -470%;
         left: 0;
@@ -644,7 +644,7 @@
         overflow: scroll;
     }
     .ft_menu .site .site3_list ul li{
-        font-size: 18px;
+        font-size: 16px;
         text-wrap: nowrap;
         padding: 10px 0;
         list-style: none;
