@@ -67,11 +67,12 @@
                 disableOnInteraction: false,
             },
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".s1_swiper-button-next",
+                prevEl: ".s1_swiper-button-prev",
             },
             pagination: {
                 el: ".swiper-pagination",
+                type: "fraction",
             },
             mousewheel: true,
             keyboard: true,
