@@ -268,6 +268,7 @@ header nav .navi .sub>li{
 }
 .s1 .swiper{
     width: 100%;
+    max-width: 700px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -284,13 +285,41 @@ header nav .navi .sub>li{
 .s1 .swiper-slide img{
     margin: 0 auto;
 }
-.s1 .swiper .swiper-button-next,
-.s1 .swiper .swiper-button-prev{
-
+.s1 .swiper .s1_swiper-button-next,
+.s1 .swiper .s1_swiper-button-prev{
+    width: 50px;
+    z-index: 9999;
+}
+.s1 .swiper .s1_swiper-button-next{
+    position: absolute;
+    top: 50%;
+    right: 6px;
+}
+.s1 .swiper .s1_swiper-button-prev{
+    position: absolute;
+    top: 50%;
+    left: 6px;
+}
+.s1 .swiper .swiper-pause-button{
+    width: 20px;
 }
 .s1 .swiper .swiper-button-next::after,
 .s1 .swiper .swiper-button-prev::after{
     
+}
+.s1 .swiper .swiper-pagination{
+    position: absolute;
+    left: 6px;
+    bottom: 10px;
+}
+.s1 .swiper .swiper-pagination-fraction{
+    width: max-content;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 500px;
+    padding: 5px 10px;
+    font-size: 12px;
 }
 .s1 .mayor{
     margin: 0 auto;
